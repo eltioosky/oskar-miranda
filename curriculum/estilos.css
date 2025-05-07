@@ -1,0 +1,10 @@
+body p{ text-align: center;
+    color: #333;
+}
+section{
+    margin-bottom: 25px;
+}
+h2{
+    color: aqua;
+    border-bottom: 1px solid #ccc;
+}
