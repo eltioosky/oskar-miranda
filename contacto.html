@@ -1,3 +1,65 @@
 
-<!DOCTYPE html> <html lang="es"> <head> <meta charset="UTF-8"> <title>Contacto</title> <link rel="stylesheet" href="estilos.css"> </head> <body> <nav> <a href="index.html">Inicio</a> <a href="mas.html">Más Info</a> <a href="objetivo.html">Objetivos</a> <a href="video.html">Video</a> <a href="contacto.html">Contacto</a> </nav> <h1>Formulario de Contacto</h1> <form action="#" method="post"> <label for="nombre">Nombre:</label> <input type="text" id="nombre" name="nombre" required> <label for="correo">Correo electrónico:</label> <input type="email" id="correo" name="correo" required> <label for="mensaje">Mensaje:</label> <textarea id="mensaje" name="mensaje" rows="5" required></textarea> <label for="producto">¿Qué tipo de producto está interesado en comprar?</label> <input type="text" id="producto" name="producto"> <label for="descubrio">¿Cómo se enteró de nuestro producto?</label> <input type="text" id="descubrio" name="descubrio"> <input type="submit" value="Enviar"> </form> </body> </html>
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="mas.html">Más Info</a></li>
+            <li><a href="objetivo.html">Objetivos</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Título del formulario -->
+    <header>
+        <h1>Formulario de Contacto</h1>
+    </header>
+
+    <!-- Formulario de contacto -->
+    <section>
+        <form action="#" method="post">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+
+            <div>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+
+            <div>
+                <label for="producto">¿Qué tipo de producto está interesado en comprar?</label>
+                <input type="text" id="producto" name="producto">
+            </div>
+
+            <div>
+                <label for="descubrio">¿Cómo se enteró de nuestro producto?</label>
+                <input type="text" id="descubrio" name="descubrio">
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
